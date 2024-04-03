@@ -1,0 +1,89 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(0, 0%, 8%);
+}
+.a {
+    position: relative;
+    border-radius: 10px;
+   min-width: 300px;
+   max-width: 1400px;
+    height:500px;
+    background-color: rgba(39, 39, 39, 0.6);
+   
+}
+.b {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.c{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:10px;
+    gap: 10px;
+    position:absolute;
+    top:150px;
+    left: 0;
+    right: 0;
+}
+.c >h2 {
+    color:white;
+    font-weight: 4oo,600,700;
+
+}
+.c >h4{
+    color: hsl(75, 94%, 57%);
+
+}
+.c > span  {
+    color: white;
+    font-size: .8em;
+    margin-top: 5px;
+
+
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 0 10px;
+    gap: 8px;
+    position:absolute;
+    bottom: 10px;
+    right:0;
+    left: 0;
+    border: none;
+    outline: none;
+}
+.d >button{
+    background-color:   hsl(0, 0%, 20%);
+    color:white;
+    border-radius: .5em;
+    height: 30px;
+    font-size: 12px;
+    font-weight: lighter;
+    border: none;
+    outline:none;
+    cursor: pointer;
+}
+.d > button:hover{
+    background-color: greenyellow;
+}
